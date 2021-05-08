@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+}
+
+
+
+header {
+  position: relative;
+  height: 35vh;
+  background-image: url('./images/pattern-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+/*#region Form field*/
+form {
+  max-width: 500px;
+}
+
+input {
+  border: none;
+  flex-grow: 1;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+button {
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+/*#endregion Form field*/
+
+/*#region Search Results*/
+#results {
+  flex-direction: column;
+  height: 35vh;
+  max-width: 800px;
+  margin: 5vw;
+  position: absolute;
+  bottom: -20vh;
+}
+
+#results .title {
+  color: gray;
+  font-size: 0.6rem;
+}
+
+#results .info {
+  font-size: 1.2rem;
+}
+/*#endregion Search Results*/
+
+
+.map {
+  background-color: green;
+  height: 65vh;
+  width: 100%;
+}
